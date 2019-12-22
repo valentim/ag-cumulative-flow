@@ -3,8 +3,11 @@
   "version": "0.1.0",
   "description": "Testing",
   "author": "Thiago Valentim - AgileStats",
-  "license": "GNU",
-  "repository": "git@github.com:valentim/ag-cumulative-flow.git",
+  "license": "AGPL-3.0-or-later",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentim/ag-cumulative-flow"
+  },
   "main": "dist/app/components/CFD/CFD.js",
   "module": "dist/app/components/CFD/CFD.es.js",
   "jsnext:main": "dist/app/components/CFD/CFD.es.js",

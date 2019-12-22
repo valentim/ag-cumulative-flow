@@ -1,13 +1,13 @@
-# testing
+# AG - Cumulative Flow
 
-> Testing
+> The AG Cumulative Flow is a simple component written in React + Typescript and its objective is doing the cumulative flow diagram renderization as easy as possible.
 
-[![NPM](https://img.shields.io/npm/v/testing.svg)](https://www.npmjs.com/package/testing) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/ag-cumulative-flow.svg)](https://www.npmjs.com/package/ag-cumulative-flow) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save testing
+npm i ag-cumulative-flow
 ```
 
 ## Usage
@@ -15,17 +15,29 @@ npm install --save testing
 ```tsx
 import * as React from 'react'
 
-import MyComponent from 'testing'
+import CFD from 'ag-cumulative-flow'
 
 class Example extends React.Component {
   render () {
+
+    const cumulativeFlowData = {
+      Backlog: [{
+        x: 1570503600, y: 2
+      }],
+      Done: [{
+        x: 1570417200, y: 1
+      }]
+    };
+
     return (
-      <MyComponent />
+      <CFD data={cumulativeFlowData}/>
     )
   }
 }
 ```
 
+The cumulativeFlowData constant must have an object as the value, where the attributes is going to be the KanBan lanes and the 'x' must be the date in timestamp format and the 'y' the quantity
+
 ## License
 
-MIT © [Thiago Valentim](https://github.com/Thiago Valentim)
+GNU © [AG Cumulative Flow](https://github.com/valentim/ag-cumulative-flow)
