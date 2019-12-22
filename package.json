@@ -1,13 +1,13 @@
 {
-  "name": "testing",
-  "version": "1.0.0",
+  "name": "ag-cumulative-flow",
+  "version": "0.1.0",
   "description": "Testing",
-  "author": "Thiago Valentim",
-  "license": "MIT",
-  "repository": "Thiago Valentim/testing",
-  "main": "dist/index.js",
-  "module": "dist/index.es.js",
-  "jsnext:main": "dist/index.es.js",
+  "author": "Thiago Valentim - AgileStats",
+  "license": "GNU",
+  "repository": "git@github.com:valentim/ag-cumulative-flow.git",
+  "main": "dist/app/components/CFD/CFD.js",
+  "module": "dist/app/components/CFD/CFD.es.js",
+  "jsnext:main": "dist/app/components/CFD/CFD.es.js",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
@@ -21,7 +21,9 @@
     "predeploy": "cd example && yarn install && yarn run build",
     "deploy": "gh-pages -d example/build"
   },
-  "dependencies": {},
+  "dependencies": {
+    "rickshaw": "^1.6.6"
+  },
   "peerDependencies": {
     "prop-types": "^15.5.4",
     "react": "^15.0.0 || ^16.0.0",
