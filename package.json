@@ -4,7 +4,10 @@
   "description": "Testing",
   "author": "Thiago Valentim - AgileStats",
   "license": "GNU",
-  "repository": "git@github.com:valentim/ag-cumulative-flow.git",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/valentim/ag-cumulative-flow"
+  },
   "main": "dist/app/components/CFD/CFD.js",
   "module": "dist/app/components/CFD/CFD.es.js",
   "jsnext:main": "dist/app/components/CFD/CFD.es.js",
