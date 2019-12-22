@@ -10,7 +10,7 @@ import svgr from '@svgr/rollup'
 import pkg from './package.json'
 
 export default {
-  input: 'src/index.tsx',
+  input: 'src/app/components/CFD/CFD.tsx',
   output: [
     {
       file: pkg.main,
