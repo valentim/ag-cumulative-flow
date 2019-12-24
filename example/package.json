@@ -11,6 +11,20 @@
     "react-scripts": "^1.1.4",
     "testing": "link:.."
   },
+  "resolutions": {
+    "react-scripts/webpack/yargs/os-locale/mem": "^4.0.0",
+    "react-scripts/jest/jest-cli/jest-runtime/jest-config/jest-jasmine2/jest-message-util/micromatch/braces": "^2.3.1",
+    "react-scripts/jest/jest-cli/jest-jasmine2/jest-message-util/micromatch/braces": "^2.3.1",
+    "react-scripts/jest/jest-cli/jest-message-util/micromatch/braces": "^2.3.1",
+    "react-scripts/jest/jest-cli/jest-runtime/jest-haste-map/micromatch/braces": "^2.3.1",
+    "react-scripts/jest/jest-cli/jest-haste-map/sane/anymatch/micromatch/braces": "^2.3.1",
+    "react-scripts/jest/jest-cli/jest-runtime/micromatch/jest-haste-map/sane/anymatch/micromatch/braces": "^2.3.1",
+    "react-scripts/jest/jest-cli/jest-runtime/babel-jest/babel-plugin-istanbul/test-exclude/micromatch/braces": "^2.3.1",
+    "react-scripts/webpack-dev-server/http-proxy-middleware/micromatch/braces": "^2.3.1",
+    "react-scripts/css-loader/cssnano/postcss-svgo/svgo/js-yaml":  "^3.13.1",
+    "react-scripts/webpack-dev-server": "^2.3.1",
+    "react-scripts/jest/jest-cli/micromatch/braces": "^2.3.1"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
