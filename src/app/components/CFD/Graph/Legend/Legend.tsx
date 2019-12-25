@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Toggle from "./Behavior/Toggle";
 import Highlight from "./Behavior/Highlight";
+import "./Legend.css";
+
 const Graph = require('rickshaw').Graph;
 
 interface LegendProps {
