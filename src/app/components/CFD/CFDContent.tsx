@@ -1,6 +1,8 @@
 import React, { Component } from "react";
 import Legend from "./Graph/Legend/Legend";
 import HoverDetail from "./Graph/HoverDetail";
+import "./CFDContent.css";
+
 const Rickshaw = require('rickshaw');
 
 interface CumulativeFlowDataProps {
@@ -47,7 +49,7 @@ export default class CFDContent extends Component<CumulativeFlowDataProps> {
             const graph = this.getGraph();
             
             return (
-                <div>
+                <div id="legend_container">
                     <Legend graph={graph} />
                 </div>
             );
