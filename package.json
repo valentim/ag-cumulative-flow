@@ -11,6 +11,7 @@
   "main": "dist/app/components/CFD/CFD.js",
   "module": "dist/app/components/CFD/CFD.es.js",
   "jsnext:main": "dist/app/components/CFD/CFD.es.js",
+  "types": "dist/app/components/CFD/CFD.d.ts",
   "engines": {
     "node": ">=8",
     "npm": ">=5"
