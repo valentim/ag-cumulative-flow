@@ -8,7 +8,10 @@ interface CumulativeFlowDataProps {
 export default class CFD extends Component<CumulativeFlowDataProps> {
     render() {
         return (
-            <CFDContent data={this.props.data} />
+            <div id="cumulativeflow_wrapper">
+                <div id="cumulative"></div>
+                <CFDContent data={this.props.data} />
+            </div>
         );
     }
 }

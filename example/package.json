@@ -22,8 +22,9 @@
     "react-scripts/jest/jest-cli/jest-runtime/babel-jest/babel-plugin-istanbul/test-exclude/micromatch/braces": "^2.3.1",
     "react-scripts/webpack-dev-server/http-proxy-middleware/micromatch/braces": "^2.3.1",
     "react-scripts/css-loader/cssnano/postcss-svgo/svgo/js-yaml":  "^3.13.1",
-    "react-scripts/webpack-dev-server": "^2.3.1",
-    "react-scripts/jest/jest-cli/micromatch/braces": "^2.3.1"
+    "react-scripts/webpack-dev-server": "^3.1.11",
+    "react-scripts/jest/jest-cli/micromatch/braces": "^2.3.1",
+    "react-scripts/eslint": "^4.18.2"
   },
   "scripts": {
     "start": "react-scripts start",

@@ -1,6 +1,6 @@
 {
   "name": "ag-cumulative-flow",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "Testing",
   "author": "Thiago Valentim - AgileStats",
   "license": "AGPL-3.0-or-later",
@@ -60,7 +60,8 @@
     "react-scripts-ts/webpack-dev-server": "^2.11.4",
     "rollup-plugin-postcss/cssnano/postcss-svgo/svgo/js-yaml": "^3.13.1",
     "react-scripts-ts/css-loader/cssnano/postcss-svgo/svgo/js-yaml": "^3.13.1",
-    "react-scripts-ts/uglifyjs-webpack-plugin/serialize-javascript": "^2.1.1"
+    "react-scripts-ts/uglifyjs-webpack-plugin/serialize-javascript": "^2.1.1",
+    "react-scripts/webpack-dev-server": "^3.1.11"
   },
   "files": [
     "dist"

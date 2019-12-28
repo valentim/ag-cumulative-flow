@@ -11,13 +11,14 @@ interface LegendProps {
 
 export default class Legend extends Component<LegendProps> {
     componentDidMount() {
+        const graph = this.props.graph();
         const legend = new Graph.Legend( {
-            graph: this.props.graph,
+            graph: graph,
             element: document.getElementById('legend')
         } );
 
-        new Toggle({graph: this.props.graph, legend});
-        new Highlight({graph: this.props.graph, legend});
+        new Toggle({graph, legend});
+        new Highlight({graph, legend});
     }
 
     render() {

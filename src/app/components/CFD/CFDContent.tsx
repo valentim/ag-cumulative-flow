@@ -32,17 +32,19 @@ export default class CFDContent extends Component<CumulativeFlowDataProps> {
         }
 
         private getGraph() {
-            const graph = new Rickshaw.Graph({
-                element: document.querySelector("#cumulative"),
-                renderer: 'area',
-                stroke: true,
-                series: this.series
-            });
+            return () => {
+                const graph = new Rickshaw.Graph({
+                    element: document.querySelector("#cumulative"),
+                    renderer: 'area',
+                    stroke: true,
+                    series: this.series
+                });
 
-            graph.render();
-            new HoverDetail({graph});
+                graph.render();
+                new HoverDetail({graph});
 
-            return graph;
+                return graph;
+            };
         }
 
         render() {
