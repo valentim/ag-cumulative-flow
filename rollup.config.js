@@ -10,7 +10,7 @@ import svgr from '@svgr/rollup'
 import pkg from './package.json'
 
 export default {
-  input: 'src/app/components/CFD/CFD.tsx',
+  input: 'src/index.tsx',
   output: [
     {
       file: pkg.main,
@@ -34,8 +34,8 @@ export default {
     svgr(),
     resolve(),
     typescript({
-      rollupCommonJSResolveHack: true,
-      clean: true
+      rollupCommonJSResolveHack: false,
+      clean: true,
     }),
     commonjs()
   ]
