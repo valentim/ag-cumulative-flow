@@ -57,11 +57,10 @@
   "resolutions": {
     "react-scripts-ts/ts-jest/yargs/os-locale/mem": "^4.0.0",
     "react-scripts-ts/jest/jest-cli/micromatch/braces": "^2.3.1",
-    "react-scripts-ts/webpack-dev-server": "^2.11.4",
+    "react-scripts-ts/webpack-dev-server": "^3.1.11",
     "rollup-plugin-postcss/cssnano/postcss-svgo/svgo/js-yaml": "^3.13.1",
     "react-scripts-ts/css-loader/cssnano/postcss-svgo/svgo/js-yaml": "^3.13.1",
-    "react-scripts-ts/uglifyjs-webpack-plugin/serialize-javascript": "^2.1.1",
-    "react-scripts/webpack-dev-server": "^3.1.11"
+    "react-scripts-ts/uglifyjs-webpack-plugin/serialize-javascript": "^2.1.1"
   },
   "files": [
     "dist"
