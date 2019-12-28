@@ -1,4 +1,4 @@
-import CFD from '../app/components/CFD/CFD';
+import CFD from '../';
 
 describe('CFD', () => {
   it('is truthy', () => {
