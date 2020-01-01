@@ -10,6 +10,12 @@
 npm i ag-cumulative-flow
 ```
 
+ou 
+
+```bash
+yarn add ag-cumulative-flow
+```
+
 ## Usage
 
 ```tsx
