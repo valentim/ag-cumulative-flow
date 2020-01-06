@@ -1,6 +1,8 @@
 # AG - Cumulative Flow
 
-> The AG Cumulative Flow is a simple component written in React + Typescript and its objective is doing the cumulative flow diagram renderization as easy as possible.
+> The AG Cumulative Flow is a simple library written in React + Typescript and its objective is doing the cumulative flow diagram renderization as easy as possible.
+
+The objective is being a component to compose UI peaces of any interface that uses React, in this case, to render Cumulative flow diagrams.
 
 [![NPM](https://img.shields.io/npm/v/ag-cumulative-flow.svg)](https://www.npmjs.com/package/ag-cumulative-flow) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
