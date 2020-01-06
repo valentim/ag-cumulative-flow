@@ -1,6 +1,6 @@
 {
   "name": "ag-cumulative-flow",
-  "version": "0.1.8",
+  "version": "0.1.9",
   "description": "The AG Cumulative Flow is a simple component written in React + Typescript and its objective is doing the cumulative flow diagram renderization as easy as possible.",
   "author": "Thiago Valentim - AgileStats",
   "license": "AGPL-3.0-or-later",
